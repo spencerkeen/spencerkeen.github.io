@@ -3,30 +3,36 @@
     <head>
         <title>Spencer Keen - Personal Website</title>
         <link rel="stylesheet" href="stylesheet.css">
+        <meta name="description" content="This is Spencer Keen's personal website. It has some background information, previous experiences, and a picture. It also has a link to Spencer Keen's Github profile and portfolio.">
     </head>
     <body>
+        <div id="header">
+            <h1>Spencer Keen</h1>
+            <p id="header-paragraph"><a href="https://github.com/spencerkeen" id="github-link">Github Portfolio</a> - spencerkeen27@gmail.com</p>
+        </div>
+        
         <div id="about">
-            <h1>About Me</h1>
-            <img src="sources/HeadshotIMG.JPG">
-            <p>Hi! My name is Spencer Keen, and I'm currently a junior at the University of Texas at Austin studying Electrical Engineering with a specialization in Software Engineering and Design. For some of my hobbies, I like to play in the university marching band and participate in intramural sports, such as ultimate frisbee, volleyball, and flag football. As for my future, I'm doing an internship this summer with Walmart, and I want to go into Software Engineering!</p>
+            <h2>About Me</h1>
+            <img id="headshot-img" src="sources/HeadshotIMG.JPG">
+            <p id="about-paragraph">Hi! My name is Spencer Keen, and I'm currently a junior at the University of Texas at Austin studying Electrical Engineering with a specialization in Software Engineering and Design. For some of my hobbies, I like to play in the university marching band and participate in intramural sports, such as ultimate frisbee, volleyball, and flag football. As for my future, I'm doing an internship this summer with Walmart, and I want to go into Software Engineering!</p>
         </div>
     
-        <div id="work-experience">
-            <h1>Work Experience</h1>
-            <div class="work-experience-item">
-                <h3>Quest Learning & Assessment</h3>
-                <p>
-                    Deployed JavaScript and TeX code to randomize, generate, and display Math and Physics problems online <br>
-                    Corrected flagged problems through the utilization of feedback channels and debugging software <br>
-                    Analyzed and edited code from coworkers and previous programmers to amend outdated software
-                </p>
+        <div id="work-experience-section">
+            <h2>Work Experience</h1>
+            <div class="work-experience">
+                <h4 class="work-experience-header">Quest Learning & Assessment</h3>
+                <ul class="word-experience-list">
+                    <li>Deployed JavaScript and TeX code to randomize, generate, and display Math and Physics problems online</li>
+                    <li>Corrected flagged problems through the utilization of feedback channels and debugging software</li>
+                    <li>Analyzed and edited code from coworkers and previous programmers to amend outdated software</li>
+                </ul>
             </div>
-            <div class="work-experience-item">
-                <h3>MyTutor Learning</h3>
-                <p>
-                    Instructed students ranging from 7th through 12th grade in various math and calculus subjects <br>
-                    Produced curriculum tailored to each individual’s needs to achieve a more thorough conceptual understanding
-                </p>
+            <div class="work-experience">
+                <h4 class="work-experience-header">MyTutor Learning</h3>
+                <ul class="work-experience-list">
+                    <li>Instructed students ranging from 7th through 12th grade in various math and calculus subjects</li>
+                    <li>Produced curriculum tailored to each individual's needs to achieve a more thorough conceptual understanding</li>
+                </ul>
             </div>
         </div>
     </body>

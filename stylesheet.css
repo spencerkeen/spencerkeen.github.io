@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#headshot-img {
+    width: 300px;
+}
+
+#about, #work-experience, #header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a:hover {
+    color: red;
+}
+
+#about-paragraph {
+    width: 600px;
+}
+
+.work-experience-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.work-experience-item-header {
+    margin-bottom: 0px;
+}
